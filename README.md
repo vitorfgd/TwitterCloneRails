@@ -1,24 +1,37 @@
-# README
+# Trabalho final da disciplina de Tópicos Avançados em Programação
+Este foi um tutorial feito para a disciplina de Tópicos Avançados em Programação, para este trabalho foi utilizado o seguinte tu
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## HOW TO?
 
-Things you may want to cover:
+Para iniciar, deve-se clonar o repositório, isso pode ser feito utilizando:
 
-* Ruby version
+```
+$git clone https://github.com/vitorfgd/TwitterCloneRails
+```
 
-* System dependencies
+Em seguida é necessário acessar a pasta onde se encontra o arquivo Gemfile e executar o seguinte comando:
 
-* Configuration
+```
+$ bundle install --without production
+```
 
-* Database creation
+É necessário executar o seguinte comando para a migração da base:
 
-* Database initialization
+```
+$ rails db:migrate
+```
 
-* How to run the test suite
+Como este trabalho foi feito utilizando técnicas de TDD, portanto é uma boa pratica executar também os testes:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails test
+```
 
-* Deployment instructions
+Se todos os testes derem positivos, basta executar o servidor utilizando:
 
-* ...
+```
+$ rails server
+```
