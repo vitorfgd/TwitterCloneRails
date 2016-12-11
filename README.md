@@ -9,7 +9,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 Para iniciar, deve-se clonar o repositório, isso pode ser feito utilizando:
 
 ```
-$git clone https://github.com/vitorfgd/TwitterCloneRails
+$ git clone https://github.com/vitorfgd/TwitterCloneRails
 ```
 
 Em seguida é necessário acessar a pasta onde se encontra o arquivo Gemfile e executar o seguinte comando:
@@ -35,3 +35,7 @@ Se todos os testes derem positivos, basta executar o servidor utilizando:
 ```
 $ rails server
 ```
+
+## Qualquer dúvida:
+
+vitorfgd@gmail.com
